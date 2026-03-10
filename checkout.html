@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Checkout</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Checkout</h1>
+</header>
+
+<section class="checkout">
+
+<h2>Your Order</h2>
+
+<p id="cartItem"></p>
+
+<h3>Total: ₹30,000</h3>
+
+<form onsubmit="completePurchase(event)">
+<label>Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Shipping Address</label>
+<textarea required></textarea>
+
+<button type="submit">Complete Purchase</button>
+
+</form>
+
+</section>
+
+</body>
+</html>
